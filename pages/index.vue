@@ -38,7 +38,7 @@
         class="vue-typed"
         :showCursor="false"
         :loop="true"
-        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'Maaf kalo selama ini aku banyak salah... ^2500', 'Huhu! (╥﹏╥)']"
+        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'Aku tahu, aku salah, kamu pantes marah ^2500', 'Huhu! (╥﹏╥)']"
         :backDelay="500"
         :typeSpeed="100"
         :backSpeed="20"
