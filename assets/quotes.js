@@ -1,7 +1,7 @@
 // prettier-ignore
 export default [
-    { author: "-Alan", quotes: "Whatever happens, it's not true :(" },
+    { author: "-Alan", quotes: "Tetap semangatt!!!" },
     { author: "-Alan", quotes: "Hey na! I wuv chuuuu! UwU" },
     { author: "-Alan", quotes: "Have a Nice Day zeyengg" },
-    { author: "-Alan", quotes: "Whatever happens, keep breathing" },
+    { author: "-Alan", quotes: "As long as i live, I miss you" },
 ];
