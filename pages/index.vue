@@ -88,7 +88,7 @@ if (process.browser) {
       let el = document.createElement("div");
 
       // Fill with ♥
-      el.innerHTML = `<h1>${random(["💜", "💜💜", "💜💜💜"])}</h1>`;
+      el.innerHTML = `<h1>${random(["🎂", "🎂🎂", "🎂🎂🎂"])}</h1>`;
 
       // Add "popup" class
       el.classList.add("popup");
