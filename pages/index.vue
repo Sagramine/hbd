@@ -25,7 +25,8 @@
     />
 
     <!-- Audio file -->
-    <audio src="~/assets/music.mp3" autoplay controls loop />
+    <iframe src="audio/source.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe>
 
     <!-- Main -->
     <div class="main">
