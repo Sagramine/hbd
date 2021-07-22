@@ -40,7 +40,7 @@
         class="vue-typed"
         :showCursor="false"
         :loop="true"
-        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'براك الله في عمرك ^4000', 'Wish you all the best (˶ ❛ꁞ❛˶)']"
+        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'براك الله في عمرك ^4000', 'Wish you all the best 💕✨']"
         :backDelay="500"
         :typeSpeed="130"
         :backSpeed="20"
