@@ -1,4 +1,4 @@
 // prettier-ignore
 export default [
-    { author: "Iqbal", quotes: "Barakallah fii umrik mba sakinah 🎂" },
+    { author: "Iqbal Anhari ", quotes: "Happy 20th Birthday Darling 💝💕💓🎂" },
 ];
