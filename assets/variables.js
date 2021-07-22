@@ -1,10 +1,9 @@
 export default {
-  nicknames: ["Saki-chan ✨", "Saki-chan >.<"],
+  nicknames: ["Darlingg 💕✨", "Sweety ✨"],
   greetings: {
-    evening: "Otanjoubi omedetou",
-    afternoon: "Otanjoubi omedetou",
-    day: "Otanjoubi omedetou",
-    morning: "Otanjoubi omedetou",
-    night: "Otanjoubi omedetou"
+    evening: "Good evening",
+    afternoon: "Good afternoon",
+    morning: "Good morning",
+    night: "Good night"
   }
 };
