@@ -42,7 +42,7 @@
         :loop="true"
         :strings="[greetings() + ', ' + nicknames + '! ^5000', 'براك الله في عمرك ^4000', 'Wish you all the best ❤️✨']"
         :backDelay="500"
-        :typeSpeed="130"
+        :typeSpeed="120"
         :backSpeed="20"
         :contentType="'null'"
       >
