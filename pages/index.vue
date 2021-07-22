@@ -40,7 +40,7 @@
         class="vue-typed"
         :showCursor="false"
         :loop="true"
-        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'براك الله في عمرك, سَكَنَ ^3000', 'uWu ( ˶ ❛ ꁞ ❛ ˶ )']"
+        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'براك الله في عمرك ^3000', 'uWu ( ˶ ❛ ꁞ ❛ ˶ )']"
         :backDelay="500"
         :typeSpeed="100"
         :backSpeed="20"
