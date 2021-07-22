@@ -40,7 +40,7 @@
         class="vue-typed"
         :showCursor="false"
         :loop="true"
-        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'Semoga sehat selalu dan diberikan umur panjang ^2500', 'Hihi ( ╹▽╹ )']"
+        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'براك الله في عمرك, سَكَنَ ^3000', 'uWu ( ˶ ❛ ꁞ ❛ ˶ )']"
         :backDelay="500"
         :typeSpeed="100"
         :backSpeed="20"
@@ -90,7 +90,7 @@ if (process.browser) {
       let el = document.createElement("div");
 
       // Fill with ♥
-      el.innerHTML = `<h1>${random(["🎂", "🎂🎂", "🎂🎂🎂"])}</h1>`;
+      el.innerHTML = `<h1>${random(["💖", "💕💕", "💝💝💝"])}</h1>`;
 
       // Add "popup" class
       el.classList.add("popup");
