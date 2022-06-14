@@ -40,7 +40,7 @@
         class="vue-typed"
         :showCursor="false"
         :loop="true"
-        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'براك الله في عمرك ^4000', 'Wish you all the best 💕✨']"
+        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'Maafkan aku jika aku pernah menyakiti perasaanmu 💕✨ ^4000', 'Semoga kamu suka dengan yang aku buat / いつも幸せ!']"
         :backDelay="500"
         :typeSpeed="120"
         :backSpeed="20"
@@ -99,10 +99,10 @@ if (process.browser) {
       el.style.left = `${x}px`;
       el.style.top = `${y}px`;
 
-      // Render it (show it to user)
+      // レンダリングする (show it to user)
       document.body.appendChild(el);
 
-      // Set timeout before deletes after 3 secs it to reduce lags
+      // ラグを減らすために、3秒後に削除する前にタイムアウトを設定します
       setTimeout(function() {
         el.style.display = "none";
       }, 3000);
@@ -118,19 +118,19 @@ export default {
       nicknames: this.random(variables.nicknames), // random the nicknames (from variables.js)
       quotes: this.random(quotesFile), // random the quotes (from variables.js)
       greetings: function() {
-        // If right now is equals to or greater than 18 (6pm), show evening greeting
+        // 現在が18以上の場合 (6pm), 夕方の挨拶を表示
         if (now >= 18) return greetings.evening;
 
-        // If right now is equals to or greater than 15 (3pm), show afternoon greeting
-        if (now >= 15) return greetings.afternoon;
+        // 現在が1以上の場合 (1pm), 午後の挨拶を表示
+        if (now >= 16) return greetings.afternoon;
 
-        // If right now is equals to or greater than 11 (11am), show day greeting
-        if (now >= 11) return greetings.day;
+        // 現在が12以上の場合 (11am), 日の挨拶を表示
+        if (now >= 12) return greetings.day;
 
-        // If right now is equals to or greater than 5 (5am), show morning greeting
+        // 現在が5以上の場合 (5am), 朝の挨拶を表示
         if (now >= 5) return greetings.morning;
 
-        // If right now is equals to or greater than 0 (12am), show sleep greeting
+        // 現在が0以上の場合 (12am), 睡眠の挨拶を表示
         if (now >= 0) return greetings.night;
       },
       darkMode: function() {
