@@ -1,10 +1,10 @@
 export default {
-  nicknames: ["Sakinah 💕✨", "Sakinah 💕✨"],
+  nicknames: ["Nata 💕✨", "Natasha 💕✨"],
   greetings: {
-    evening: "Good evening",
-    afternoon: "Good afternoon",
-    day: "Good afternoon",
-    morning: "Good morning",
-    night: "Good night"
+    evening: "Selamat malam",
+    afternoon: "Selamat sore",
+    day: "Selamat siang",
+    morning: "Selamat pagi",
+    night: "Selamat beristirahat"
   }
 };
